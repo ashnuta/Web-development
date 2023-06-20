@@ -1,0 +1,35 @@
+.container{
+    height:500px;
+    width:500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box{
+    height:150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aqua;
+
+   /* jiske upar transition karna hai uspe likhna for smoothe*/
+   
+   /* transition:2s; */
+
+   transition-property: all; /*bad practice since specific ho to better*/
+   /* transition-delay:5s; */
+
+   /* shorthand property */
+    /* transition: transform 1s ease 3s; */
+
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
+.box:hover{
+    background-color: pink;
+    transform: scale(2) translate(501px) rotate(80deg);
+}
