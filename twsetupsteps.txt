@@ -1,0 +1,13 @@
+yeh sab ussi folder mein karna
+npm install -D tailwindcss postcss autoprefixer vite
+npx tailwindcss  init -p
+tailwind css extension installed
+tailwind.config.js meint m=content mein add "*" (with quotes)
+package.json ke andar 
+"scripts": {
+    "start": "vite"
+  },
+styles.css file creat karke uske andnar
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
