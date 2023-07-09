@@ -95,5 +95,5 @@ rectangleObject.color = 'yellow';
 console.log(rectangleObject);
 
 //deletion
-delete rectangleObject.color;
+delete rectangleObject.color; 
 console.log(rectangleObject);
